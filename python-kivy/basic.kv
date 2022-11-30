@@ -1,0 +1,64 @@
+#:kivy 1.11.1
+<MyWidget>:
+    orientation: 'vertical'
+    Label:
+        id: lb
+        text: '0'
+    BoxLayout:
+        orientation:'horizontal'
+        GridLayout:
+            cols: 3
+            rows: 5
+            Button:
+                id: btn1
+                text: '1'
+            Button:
+                id: btn2
+                text: '2'
+            Button:
+                id: btn3
+                text: '3'
+            Button:
+                id: btn4
+                text: '4'
+            Button:
+                id: btn5
+                text: '5'
+            Button:
+                id: btn6
+                text: '6'
+            Button:
+                id: btn7
+                text: '7'
+            Button:
+                id: btn8
+                text: '8'
+            Button:
+                id: btn9
+                text: '9'
+            Button:
+                id: btn0
+                text: '0'
+        GridLayout:
+            cols: 1
+            rows: 4
+            Button:
+                id: btnMais
+                text: '+'
+            Button:
+                id: btnSubtr
+                text: '-'
+            Button:
+                id: btnMulti
+                text: '*'
+            Button:
+                id: btnDiv
+                text: '/'
+    BoxLayout:
+        orientation:'horizontal'
+        Button:
+            id: igual
+            text:'='
+        Button:
+            id: delete
+            text: 'del'
